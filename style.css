@@ -1,0 +1,113 @@
+body {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.titletext {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.titleindex {
+  display: inline-block;
+  margin: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 5px;
+  border: groove;
+  font-size: small;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.addbutton {
+  display: inline-block;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(39, 189, 164);
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.cancelbutton {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(216, 84, 84);
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.container h3 {
+  display: flex;
+  margin-left: 5px;
+}
+span {
+  margin-left: 255px;
+  color: #20e3b2;
+}
+.box {
+  width: 390px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+/* #checbox{
+    accent-color: green;
+    
+} */
+#btn {
+  padding: 8px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid #20e3b2;
+  color: #20e3b2;
+  margin-left: 130px;
+  background-color: #fff;
+}
+#add {
+  background-color: #20e3b2;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  margin-left: 155px;
+  border: none;
+}
+
+.done {
+
+    background-color: greenyellow;
+
+}
+
+.notDone {
+}
